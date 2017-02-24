@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>colorIndex</key>
+			<integer>0</integer>
+			<key>database</key>
+			<string>bamazon</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>bamazon</string>
+			<key>port</key>
+			<integer>3306</integer>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK0HCBUWFxgZHSQoLDA0VSRudWxs0wkK
+			CwwQFFdOUy5rZXlzWk5TLm9iamVjdHNWJGNsYXNzow0OD4ACgAOA
+			BKMREhOABYAGgAiADFR0eXBlVHJvd3NUa2V5c18QJlNlbGVjdGlv
+			bkRldGFpbFR5cGVQcmltYXJ5S2V5ZWREZXRhaWxz0wkKCxobHKCg
+			gAfSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxl
+			RGljdGlvbmFyeaMgIiNcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00goL
+			JSehJoAJgAvSCykqK1lOUy5zdHJpbmeAClJpZNIeHy0uXxAPTlNN
+			dXRhYmxlU3RyaW5noy0vI1hOU1N0cmluZ9IeHzEyXk5TTXV0YWJs
+			ZUFycmF5ozEzI1dOU0FycmF50h4fIjWiIiNfEA9OU0tleWVkQXJj
+			aGl2ZXLRODlUZGF0YYABAAgAEQAaACMALQAyADcARQBLAFIAWgBl
+			AGwAcAByAHQAdgB6AHwAfgCAAIIAhwCMAJEAugDBAMIAwwDFAMoA
+			1QDeAPQA+AEFAQ4BEwEVARcBGQEeASgBKgEtATIBRAFIAVEBVgFl
+			AWkBcQF2AXkBiwGOAZMAAAAAAAACAQAAAAAAAAA6AAAAAAAAAAAA
+			AAAAAAABlQ==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{1, 0}, {599, 475}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE DATABASE Bamazon;
+USE Bamazon;
+
+CREATE TABLE products (
+	id INT NOT NULL AUTO_INCREMENT,
+	product_name VARCHAR(45) NOT NULL,
+	department VARCHAR(45) NOT NULL,
+	price DECIMAL(10,2) NOT NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (id)
+
+);</string>
+			<key>table</key>
+			<string>products</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>CREATE TABLE products (
+	id INT NOT NULL AUTO_INCREMENT,
+	product_name VARCHAR(45) NOT NULL,
+	department VARCHAR(45) NOT NULL,
+	price DECIMAL(10,2) NOT NULL,
+	stock_quantity INT NOT NULL,
+	PRIMARY KEY (id)
+
+)</string>
+		<string>USE Bamazon</string>
+		<string>CREATE DATABASE Bamazon</string>
+		<string>CREATE TABLE hellothere (
+id INT NOT NULL,
+  item_name VARCHAR(100) NOT NULL,
+  category VARCHAR(45) NOT NULL,
+  starting_bid INT default 0,
+  highest_bid INT default 0
+)</string>
+		<string>CREATE TABLE hellothere (
+id INT NOT NULL AUTO_INCREMENT,
+  item_name VARCHAR(100) NOT NULL,
+  category VARCHAR(45) NOT NULL,
+  starting_bid INT default 0,
+  highest_bid INT default 0
+)</string>
+		<string>CREATE TABLE hellothere (
+id INT NOT NULL AUTO_INCREMENT,
+  item_name VARCHAR(100) NOT NULL,
+  category VARCHAR(45) NOT NULL,
+  starting_bid INT default 0,
+  highest_bid INT default 0;
+)</string>
+		<string>CREATE TABLE hellothere (
+id INT NOT NULL AUTO_INCREMENT,
+  item_name VARCHAR(100) NOT NULL,
+  category VARCHAR(45) NOT NULL,
+  starting_bid INT default 0,
+  highest_bid INT default 0,
+)</string>
+		<string>USE testing_db</string>
+		<string>CREATE DATABASE testing_db</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.15</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
