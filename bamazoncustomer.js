@@ -21,7 +21,7 @@ var connection = mysql.createConnection({
     password: "",
     database: "Bamazon"
 });
-
+console.log("=========BAMAZON=====================================");
 console.log("Hello and welcome to Bamazon. Our storefront sells used arcade machines. ");
 
 connection.connect(function(err) {
@@ -37,7 +37,7 @@ connection.query("SELECT * FROM products", function(err, res) {
     for (var i = 0; i < res.length; i++) {
         
     }
-    console.log("-----------------------------------");
+    console.log("==============================================");
     start();
 
 });
@@ -51,7 +51,10 @@ var start = function() {
     connection.query("SELECT * FROM products", function(err, res) {
 
         for (var i = 0; i < res.length; i++) {
+        	console.log("==============================================");
+        	
             console.log("ID: " + res[i].id + " |  Game: " + res[i].product_name + " |  Genre: " + res[i].department + " |  Price: " + res[i].price + " | Stock: " + res[i].stock_quantity);
+            
         }
         // prompts the user and asks them to select from the list of games available.
         inquirer.prompt({
@@ -66,6 +69,7 @@ var start = function() {
             },
             message: "Please select the item you'd like to purchase."
         }).then(function(answer) {
+        	console.log("==============================================");
             //once theyve selected the game. a prompt to select what quantity they would like.
             for (var i = 0; i < res.length; i++) {
                 if (res[i].product_name === answer.choice) {
@@ -75,6 +79,7 @@ var start = function() {
                         type: "input",
                         message: "Great choice! Now, please enter the quantity. "
                     }).then(function(answer) {
+                    	console.log("==============================================");
 
                     	//if there are enough machines in stock, a message to the user that their purchase was successful, and the app begins again, and they can see the updated database. 
                         if (chosenItem.stock_quantity > parseInt(answer.quantity)) {
@@ -85,6 +90,8 @@ var start = function() {
 
                             }], function(err, res) {
                                 console.log("Purchase Successful. Thank you!");
+                                console.log("==============================================");
+                                console.log("==============================================");
                                 start();
                             });
 
