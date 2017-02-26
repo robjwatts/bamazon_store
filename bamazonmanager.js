@@ -22,7 +22,9 @@ var connection = mysql.createConnection({
     database: "Bamazon"
 });
 
-console.log("Hello and welcome to Bamazon. Our storefront sells used arcade machines. ");
+console.log("==============================================");
+
+console.log("Hey there, boss-man(or woman!). Welcome to the management portal. Here is the current inventory.  ");
 
 connection.connect(function(err) {
     if (err) throw err;
@@ -41,3 +43,26 @@ connection.query("SELECT * FROM products", function(err, res) {
     start();
 
 });
+
+//store functionality
+
+var start = function() {
+
+
+//select data from our table and display product info such as the id, game, genre, price, and our current quanitity. 
+    connection.query("SELECT * FROM products", function(err, res) {
+
+        for (var i = 0; i < res.length; i++) {
+        	console.log("==============================================");
+        	
+            console.log("ID: " + res[i].id + " |  Game: " + res[i].product_name + " |  Genre: " + res[i].department + " |  Price: " + res[i].price + " | Stock: " + res[i].stock_quantity);
+            
+        }
+
+        
+
+
+
+    })
+}
+       
