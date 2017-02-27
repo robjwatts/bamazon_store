@@ -7,7 +7,7 @@ Here is a brief rundown of how the app works.
 
 Let's go ahead and run the app in the terminal:
 
-![Initiating store](http://imgur.com/yv63UGQ)
+![Initiating store](bamazon_store/Images/starting app.png)
 
 Hit 'Enter', and we see the store's stock, linked to a MySQL database. All we need to do is enter the ID number of the game and hit enter. Let's go with light-gun shooter classic, Crisis Zone. 
 
