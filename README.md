@@ -7,9 +7,9 @@ Here is a brief rundown of how the app works.
 
 Let's go ahead and run the app in the terminal:
 
-<img src="bamazon_store/Images/startingup.gif">
+<img src="Images/startingup.gif">
 
-Hit 'Enter', and we see the store's stock, linked to a MySQL database. All we need to do is enter the ID number of the game and hit enter. Let's go with light-gun shooter classic, Crisis Zone. 
+Hit 'Enter', and we see the store's stock, linked to a MySQL database. All we need to do is enter the ID number of the game and hit enter. Let's go with the classic racer, Super Hang-On. 
 
 ![Storefront](http://imgur.com/73Ynb7I)
 
