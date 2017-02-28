@@ -11,11 +11,11 @@ Let's go ahead and run the app in the terminal:
 
 Hit 'Enter', and we see the store's stock, linked to a MySQL database. All we need to do is enter the ID number of the game and hit enter. Let's go with the classic racer, Super Hang-On. 
 
-![Storefront](http://imgur.com/73Ynb7I)
+<img src="Images/selectinggame.gif">
 
-Next, we are asked to enter the quantity. I'll buy one to keep in my den, and maybe flip the other one and sell it to a chain like Barcade. I'll buy two today. 
+Next, we are asked to enter the quantity. Perhaps if I was a reseller, I could buy one for myself, spruce up a second machine, and sell it to someone. But today, I'd just like one. 
 
-![Quantity](http://imgur.com/2R01I5o)
+<img src="Images/quantitypick.gif">
 
 Great, our purchase went though...
 
