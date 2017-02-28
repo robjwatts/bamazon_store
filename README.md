@@ -19,11 +19,11 @@ Next, we are asked to enter the quantity. Perhaps if I was a reseller, I could b
 
 Great, our purchase went though...
 
-![Success](http://imgur.com/zksWP7f)
+<img src="Images/successmsg.png">
 
-Look at Crisis Zone, and we can see that the changes have been made in the database. 
+Look at Super Hang-On, and we can see that the changes have been made in the database. 
 
-![New Data](http://imgur.com/sVlmyWn)
+<img src="Images/newstock.png">
 
 And we're all set. Thanks for taking a look!
 
